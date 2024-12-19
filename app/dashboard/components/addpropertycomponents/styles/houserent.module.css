@@ -1,0 +1,146 @@
+.houseforrent {
+    max-width: 75rem; /* Increase width to accommodate two columns */
+    margin: 2rem;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.houseforrent form {
+    margin: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between items */
+}
+
+.houseforrent label {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.houseforrent input[type='text'],
+.houseforrent input[type='number'] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    width: 100%;
+}
+
+.houseforrent input[type='text']:focus,
+.houseforrent input[type='number']:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.houseforrent input[type='image'] {
+    max-width: 100%;
+    border: none;
+    background: transparent;
+}
+
+.houseforrent input[type='image']:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Submit button spans two columns */
+.houseforrent form button {
+    grid-column: span 2; /* Make the button span across both columns */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.houseforrent form button:hover {
+    background-color: #0056b3;
+}
+
+.houseforrent form button:focus {
+    outline: none;
+}
+
+/*display*/
+/* CSS for Property List */
+.propertyList {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .propertyList h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1e799b;
+  }
+  
+  .propertyList ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .propertyList li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .propertyList li h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .propertyList li img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .propertyList li p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .propertyList li p:first-child {
+    font-weight: bold;
+  }
+  
+  .propertyList li p:last-child {
+    font-style: italic;
+  }
+  
+  .propertyList p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+  }
+  
+  .Forminput h2{
+    justify-content: center;
+    text-align: center;
+    color: #0056b3;
+    font-size: 2rem;
+    padding: 1rem;
+  }

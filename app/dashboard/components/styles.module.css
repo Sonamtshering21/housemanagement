@@ -1,0 +1,35 @@
+.sidebar{
+    background-color: transparent;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    width: 15rem; 
+    max-width: 25rem; 
+    padding:0 2rem; 
+
+    position: absolute; 
+      z-index: 1;
+    top: 0; 
+    left: 0; 
+    border-right: 1px solid #ddd;
+  }
+.sidebar ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+  .headeradmin ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    width: 100%;
+    background: rgb(56, 158, 199);
+    color: white;
+    padding: 1rem;
+
+  }

@@ -1,0 +1,14 @@
+.loginbg{
+    background-image: url('/houseowner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Adjust if necessary */
+    background-position: center; /* Ensures proper centering of the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    color: black;
+}

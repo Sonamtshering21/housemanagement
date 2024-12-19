@@ -1,0 +1,284 @@
+/* Updated styles for better visibility and spacing */
+.rooms {
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 70rem;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rooms h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.roomList ul {
+  list-style: none;
+  padding: 0;
+}
+
+.roomItem {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.roomItem p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.roomForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.roomForm label {
+  font-weight: bold;
+  color: #444;
+}
+
+.roomForm input,
+.roomForm textarea,
+.roomForm select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+.roomForm input:focus,
+.roomForm textarea:focus,
+.roomForm select:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.roomForm button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.roomForm button:hover {
+  background-color: #005bb5;
+}
+
+.roomList ul {
+  margin-top: 20px;
+}
+
+.roomList p {
+  text-align: center;
+  color: #777;
+}
+/*display*/
+/* CSS for Property List */
+.propertyTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.propertyTable th,
+.propertyTable td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.propertyTable th {
+  background-color: #f4f4f4;
+}
+
+.propertyTable img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+.propertyList {
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.propertyList h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e799b;
+}
+
+
+.propertyList ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.propertyList li {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.propertyList li h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.propertyList li img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.propertyList li p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.propertyList li p:first-child {
+  font-weight: bold;
+}
+
+.propertyList li p:last-child {
+  font-style: italic;
+}
+
+.propertyList p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.propertyDetails h2{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+ 
+  color: #1e799b;
+}
+/*rooms*/
+.roomsdetails {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 20px; /* Add space inside the div */
+  border-radius: 8px; /* Smooth corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px; /* Limit the width for better readability */
+  margin: 20px auto; /* Center it and add space around */
+}
+
+.roomsdetails form {
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  gap: 15px; /* Space between elements */
+}
+
+.roomsdetails label {
+  font-weight: bold; /* Highlight labels */
+  color: #333; /* Darker color for better contrast */
+}
+
+.roomsdetails input {
+  padding: 10px; /* Add space inside inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Smooth input corners */
+  font-size: 16px; /* Increase text size */
+  transition: border-color 0.3s ease; /* Smooth hover effect */
+}
+
+.roomsdetails input:focus {
+  border-color: #007bff; /* Highlight border on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+.roomsdetails button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* White text for contrast */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Button size */
+  border-radius: 4px; /* Smooth button corners */
+  cursor: pointer; /* Pointer cursor for buttons */
+  font-size: 16px; /* Larger text for buttons */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.roomsdetails button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.roomsdetails button:active {
+  background-color: #004085; /* Even darker shade when pressed */
+}
+
+/*room available */
+.roomlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 64rem;
+}
+
+.roomlist ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.roomlist ul li {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Adjust based on the number of columns */
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  background-color: #f9f9f9;
+}
+
+.roomlist ul li h3,
+.roomlist ul li p {
+  margin: 0;
+
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+.roomlist ul li:nth-child(even) {
+  background-color: #f1f1f1; /* Alternate row color for better readability */
+}
+
+.roomlist ul li:hover {
+  background-color: #eaeaea;
+  cursor: pointer;
+}

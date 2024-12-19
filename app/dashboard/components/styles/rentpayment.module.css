@@ -1,0 +1,168 @@
+.rentpayment h1{
+  font-size: 2rem;
+  color: #0056b3;
+}
+.propertyTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.propertyTable th,
+.propertyTable td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.propertyTable th {
+  background-color: #f4f4f4;
+}
+
+.propertyTable img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.propertyList {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .propertyList h2 {
+    text-align: center;
+    font-size: 0.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .propertyList ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .propertyList li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .propertyList li h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .propertyList li img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .propertyList li p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .propertyList li p:first-child {
+    font-weight: bold;
+  }
+  
+  .propertyList li p:last-child {
+    font-style: italic;
+  }
+  
+  .propertyList p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+  }
+  
+  /*inner display*/
+  .innerdisplay{
+    width: 100%;
+    text-align: center;
+    
+}
+.propertyDetails h2{
+  font-size: 2rem;
+  color: #0056b3;
+}
+
+/* roomlist.module.css or your appropriate CSS module file */
+.roomlist {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.roomlist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roomlist li {
+  display: table-row;
+  border: 1px solid #ddd;
+}
+
+.roomItem {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.roomItem h3,
+.roomItem p {
+  display: table-cell;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+.roomItem h4 {
+  display: table-header-group;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f4f4f4;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.roomItem p {
+  font-size: 14px;
+  color: #333;
+}
+
+.roomlist th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.roomlist td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}

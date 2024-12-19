@@ -1,0 +1,8 @@
+.options{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    max-width: 100%;
+    width: 100%;
+    background-color: greenyellow;
+}

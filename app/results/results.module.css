@@ -1,0 +1,37 @@
+.details{
+    display: flex;
+    flex-direction: row;
+    background: rgb(29,20,189);
+background: linear-gradient(180deg, rgba(29,20,189,1) 9%, rgba(20,154,181,1) 100%);
+    justify-content: space-evenly;
+    padding: 1rem
+    
+}
+.details p{
+    padding: 1rem 3rem;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    color: white;
+}
+.displaystatus{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    justify-content: space-evenly;
+    background: lightblue;
+    padding: 1rem;
+}
+.resultscontent{
+    display: flex;
+    flex-direction: row;
+    border: 0.1rem solid black;
+    margin: 3rem;
+    gap: 1rem;
+}
+.resultscontent img{
+    padding: 1rem;
+}
+.resultscontent p{
+    border-left: 0.1rem solid black;
+    padding: 1rem;
+}

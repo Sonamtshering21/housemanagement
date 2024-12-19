@@ -1,0 +1,90 @@
+
+.rentsystem{
+  margin: 1rem 4rem;
+  color: black;
+  background-color: white;
+  padding: 0 4rem;
+}
+.rentsystem h2{
+  color: #0056b3;
+  font-size: 2rem;
+}
+.tenantstable span{
+  color: #0056b3;
+  font-size: 1.8rem;
+}
+.tenantstable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+.tenantstable table th,
+.tenantstable table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.tenantstable table th {
+  background-color: #0056b3;
+  color: white;
+  font-weight: bold;
+}
+
+.tenantstable table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tenantstable table tr:hover {
+  background-color: #ddd;
+}
+
+.tenantstable table td {
+  color: #333;
+}
+
+.tenantstable table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tenantstable h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.tenantstable p {
+  font-size: 14px;
+  color: black;
+  margin: 5px 0;
+}
+
+.insidetenants{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.secondbox{
+  background-color: #0056b3;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.secondbox p{
+  color:  white;
+  font-size: 1rem;
+}
+.secondbox button{
+  color:  #0056b3;
+  font-size: 1rem;
+  background-color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+}
+.secondbox h1{
+  color: white;
+  font-size: 1.5rem;
+}
